@@ -30,13 +30,13 @@ Directions after cloning are as follows:
 
 Describe: registerAccount()
 
-test:
-code:
-Ouput:
+test: input new names into an object
+code: const name = document.getElementById("new-name").value;
+Ouput: New Name
 
-test:
-code:
-Ouput:
+test: associate innitial deposits with corresponding names
+code: this.balance = initialDeposit;
+Ouput: New Name, $$$
 
 test:
 code:
