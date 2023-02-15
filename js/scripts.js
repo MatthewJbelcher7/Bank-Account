@@ -16,11 +16,11 @@ BankAccount.prototype.assignId = function() {
 // Bank Account constructor function
 function BankContact(name, initialDeposit) {
     this.name = name;
-    this.intialDeposit = initialDeposit;
+    this.balance = initialDeposit;
 }
 
 //Deposit method
-BankAccount.prototype.deposit = function(amount) {
+BankContact.prototype.deposit = function(amount) {
     this.balance += amount;
 }
 
